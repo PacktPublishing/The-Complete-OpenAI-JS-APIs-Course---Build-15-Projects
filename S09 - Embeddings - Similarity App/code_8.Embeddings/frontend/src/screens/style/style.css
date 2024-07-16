@@ -1,0 +1,24 @@
+.custom-input {
+  height: 60px !important;
+}
+
+.custom-button {
+  height: 60px;
+}
+
+.card-img-smaller {
+  width: 10% !important;
+}
+
+.container .jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/bookshelves.png');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+
+
+.jumbotron-transparent {
+  color: white;
+  /* Set text color to white for better visibility */
+}

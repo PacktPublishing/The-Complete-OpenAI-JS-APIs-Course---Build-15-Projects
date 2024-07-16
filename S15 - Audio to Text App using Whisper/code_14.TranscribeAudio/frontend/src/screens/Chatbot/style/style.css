@@ -1,0 +1,11 @@
+.chat-page{
+    height: 100vh;
+}
+
+.selected{
+    border: 4px solid green;
+}
+
+#personalities h6{
+    height: 2rem;
+}

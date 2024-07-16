@@ -1,0 +1,19 @@
+[
+    {
+        "role": "user",
+        "content": "prompt"
+    },
+    {
+        "role": "assistant",
+        "content": null,
+        "function_call": {
+            "name": "get_current_weather",
+            "arguments": "function_arguments"
+        }
+    },
+    {
+        "role": "function",
+        "name": "get_current_weather",
+        "content": "JSON.stringify(weatherObject)"
+    }
+]

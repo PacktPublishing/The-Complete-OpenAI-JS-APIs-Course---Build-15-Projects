@@ -1,0 +1,20 @@
+.custom-input {
+  height: 60px !important;
+}
+
+.custom-button {
+  height: 60px;
+}
+
+.container .hero{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../images/library.jpeg');;
+  height: 50vh;
+  background-position: center;
+  color: white;
+}
+
+.chatContainer{
+  height: 200px;
+  overflow: auto;
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,42 @@
+{
+  "name": "chatgptapi_course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm start\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "canvas": "^2.11.2",
+    "concurrently": "^8.0.1",
+    "csv-parse": "^5.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "file-type": "^18.5.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "gpt-3-encoder": "^1.1.4",
+    "image-type": "^5.2.0",
+    "jimp": "^0.22.8",
+    "ml-matrix": "^6.10.4",
+    "multer": "^1.4.5-lts.1",
+    "natural": "^6.5.0",
+    "node-fetch": "^3.3.1",
+    "nodemon": "^2.0.22",
+    "nomic": "^1.0.0",
+    "openai": "^3.2.1",
+    "pdf-parse": "^1.1.1",
+    "pdf.js-extract": "^0.2.1",
+    "pngjs": "^7.0.0",
+    "readline": "^1.3.0",
+    "sharp": "^0.32.1",
+    "spacy": "^0.0.4",
+    "sqlite3": "^5.1.6"
+  }
+}
